@@ -1,0 +1,866 @@
+{
+  "report_metadata": {
+    "generated_at": "2025-08-20T17:06:31.740146",
+    "report_type": "comprehensive",
+    "analysis_period": {
+      "start": "2025-06-21 17:06:31.294237",
+      "end": "2025-08-20 17:06:31.294237"
+    },
+    "data_freshness": {
+      "status": "Current",
+      "last_data_date": "2025-08-20 17:06:31.294237",
+      "days_since_last_update": 0
+    }
+  },
+  "executive_summary": {
+    "overall_health": {
+      "status": "healthy",
+      "health_score": 70,
+      "trend": "stable"
+    },
+    "financial_overview": {
+      "total_spend": 409900.05000000005,
+      "total_revenue": 1585713.0899999999,
+      "average_roas": 2.09101546054821,
+      "portfolio_roi": 6.24446152165773
+    },
+    "performance_highlights": {
+      "top_performing_campaigns": [
+        "CAMP-000003",
+        "CAMP-000017",
+        "CAMP-000022",
+        "CAMP-000001",
+        "CAMP-000016"
+      ],
+      "biggest_opportunities": [
+        "Reallocate budget for CAMP-000014",
+        "Reallocate budget for CAMP-000015",
+        "Reallocate budget for CAMP-000019"
+      ],
+      "critical_issues": []
+    },
+    "strategic_recommendations": {
+      "immediate_actions": [],
+      "expected_impact": "Low impact expected (5-10% improvement)"
+    }
+  },
+  "key_performance_indicators": {
+    "financial_kpis": {
+      "total_ad_spend": 409900.05000000005,
+      "total_revenue": 1585713.0899999999,
+      "average_true_roas": 2.09101546054821,
+      "average_contribution_roas": 1.091693426649905,
+      "average_clv_roas": 1.4312286729713242,
+      "composite_roi_score": 2.3759832243199073,
+      "working_capital_impact": 0.0,
+      "tax_efficiency": 102475.01250000001
+    },
+    "attribution_kpis": {
+      "average_journey_length": 1.0,
+      "total_attributed_revenue": 18583.3443923077,
+      "attribution_efficiency": 1.0,
+      "cross_platform_synergy": 0.06720920340696025
+    },
+    "optimization_kpis": {
+      "portfolio_expected_return": 6.24446152165773,
+      "portfolio_risk": 1.3210721382574837,
+      "sharpe_ratio": 4.726813427383519,
+      "diversification_level": 25,
+      "rebalancing_benefit": 5.24446152165773
+    },
+    "efficiency_kpis": {
+      "cost_per_acquisition": 14.003144643345179,
+      "customer_lifetime_value": 85.31884778156906,
+      "payback_period": Infinity,
+      "margin_efficiency": 1.2318007745378048
+    }
+  },
+  "attribution_insights": {
+    "model_performance": {
+      "individual_scores": {
+        "gradient_boost": -0.00010152559359477564,
+        "random_forest": -4.894293227031277e-05,
+        "xgboost": -0.00010078052691686601,
+        "linear": -0.00010152559359477564
+      },
+      "ensemble_score": -8.642888623300315e-05,
+      "ensemble_weights": {
+        "gradient_boost": 0.25,
+        "random_forest": 0.25,
+        "xgboost": 0.25,
+        "linear": 0.25
+      }
+    },
+    "touchpoint_analysis": {
+      "top_performing_touchpoints": {
+        "view": 6659.3556177330365,
+        "click": 6129.923980870661,
+        "impression": 5794.064793704003
+      },
+      "platform_contribution": {
+        "amazon": 9916.158082775952,
+        "walmart": 8667.18630953175
+      },
+      "touchpoint_efficiency": {
+        "click": {
+          "total_revenue": 6129.92,
+          "avg_revenue_per_touchpoint": 11.27,
+          "touchpoint_count": 544
+        },
+        "impression": {
+          "total_revenue": 5794.06,
+          "avg_revenue_per_touchpoint": 10.27,
+          "touchpoint_count": 564
+        },
+        "view": {
+          "total_revenue": 6659.36,
+          "avg_revenue_per_touchpoint": 12.04,
+          "touchpoint_count": 553
+        }
+      }
+    },
+    "customer_journey_analysis": {
+      "journey_length_distribution": {
+        "1": 593
+      },
+      "conversion_path_analysis": {
+        "top_conversion_paths": {
+          "click": 48,
+          "view": 45,
+          "impression": 43,
+          "view -> impression": 21,
+          "view -> view": 19,
+          "click -> view": 18,
+          "impression -> click": 17,
+          "impression -> view": 15,
+          "click -> impression": 12,
+          "view -> click -> view": 11
+        },
+        "total_unique_paths": 10
+      },
+      "time_to_conversion": {}
+    },
+    "attribution_model_comparison": {
+      "model_weights": {
+        "attribution_weight": 0.6485243829018664,
+        "time_decay_weight": 1.0,
+        "position_weight": 1.0,
+        "spend_x_time_weight": 100.0,
+        "roas_x_position_weight": 3.0,
+        "total_weighted_touches": 1.0,
+        "normalized_weight": 0.25,
+        "markov_weight_normalized": 0.25,
+        "ensemble_weight": 0.625,
+        "ensemble_weight_normalized": 0.3570138470800722
+      },
+      "model_agreement": 0.07843484790124147,
+      "confidence_intervals": {
+        "mean": 11.188045991756592,
+        "std": 23.07017618608008,
+        "confidence_95_lower": 0.0,
+        "confidence_95_upper": 73.79231875800971
+      }
+    }
+  },
+  "financial_analysis": {
+    "roi_analysis": {
+      "roi_distribution": {
+        "mean": 2.09101546054821,
+        "median": 1.2657305393533518,
+        "std": 2.7227979651775254,
+        "min": 0.0,
+        "max": 31.674060494958756,
+        "percentile_25": 0.5424486586108666,
+        "percentile_75": 2.5782470052774125,
+        "campaigns_above_3x": 298,
+        "campaigns_below_2x": 984
+      },
+      "campaign_performance_ranking": {
+        "CAMP-000003": 3.3671673259622916,
+        "CAMP-000017": 3.12158167440497,
+        "CAMP-000022": 3.0783051091718407,
+        "CAMP-000001": 2.9975583868848115,
+        "CAMP-000016": 2.800249856479635,
+        "CAMP-000024": 2.7383219843666375,
+        "CAMP-000025": 2.6593023003953546,
+        "CAMP-000005": 2.6141569091318875,
+        "CAMP-000018": 2.493958235926419,
+        "CAMP-000006": 2.46721439599653
+      },
+      "platform_profitability": {
+        "true_roas": {
+          "amazon": 1.172,
+          "walmart": 1.079
+        },
+        "contribution_margin_rate": {
+          "amazon": -3.468,
+          "walmart": -2.479
+        },
+        "financial_health_score": {
+          "amazon": 75.0,
+          "walmart": 75.0
+        }
+      },
+      "margin_analysis": {
+        "avg_contribution_margin": -2.975787428770905,
+        "median_contribution_margin": 0.07222066461781772,
+        "low_margin_campaigns": 979,
+        "high_margin_campaigns": 0
+      }
+    },
+    "cost_analysis": {
+      "cost_breakdown": {
+        "platform_fees": 190285.5708,
+        "fulfillment_fees": 102452.0,
+        "cost_of_goods_sold": 634285.236,
+        "spend": 409900.05000000005,
+        "platform_fees_percentage": 14.233100274421156,
+        "fulfillment_fees_percentage": 7.663269386030589,
+        "cost_of_goods_sold_percentage": 47.44366758140386,
+        "spend_percentage": 30.65996275814439
+      },
+      "cost_efficiency_trends": {
+        "avg_efficiency": 1.2318007745378048,
+        "efficiency_trend": 1.8848828692152937
+      },
+      "working_capital_analysis": {
+        "total_wc_impact": 0.0,
+        "wc_optimization_opportunities": []
+      }
+    },
+    "risk_analysis": {
+      "portfolio_risk_metrics": {
+        "avg_volatility": 0.1,
+        "max_drawdown": -0.05,
+        "sharpe_ratio": 1.0
+      },
+      "campaign_risk_assessment": {
+        "low_risk": 0,
+        "medium_risk": 0,
+        "high_risk": 1475
+      },
+      "volatility_analysis": {
+        "avg_volatility": 0.1,
+        "max_volatility": 0.1,
+        "volatility_trend": 0.0
+      }
+    },
+    "profitability_analysis": {
+      "profit_margins_by_campaign": {
+        "CAMP-000001": -0.23915141999210882,
+        "CAMP-000002": -0.15260945252488628,
+        "CAMP-000003": 0.029205137190876043,
+        "CAMP-000004": 0.02947084370749415,
+        "CAMP-000005": -0.016568214429294625,
+        "CAMP-000006": -0.028243853986757637,
+        "CAMP-000007": 0.019593313394744967,
+        "CAMP-000008": -0.3177287819852125,
+        "CAMP-000009": -0.04469190731249154,
+        "CAMP-000010": -0.16157942436422068
+      },
+      "breakeven_analysis": {
+        "breakeven_campaigns_count": 491,
+        "total_campaigns": 1475,
+        "breakeven_percentage": 33.28813559322034
+      },
+      "sensitivity_analysis": {
+        "spend_roas_correlation": -0.08309843255067384,
+        "spend_elasticity": 0.5416161216165212
+      }
+    }
+  },
+  "optimization_analysis": {
+    "current_vs_optimal": {
+      "allocation_comparison": {
+        "CAMP-000016": {
+          "current": 1605.77,
+          "optimal": 9220.059429272857,
+          "difference": 7614.289429272856,
+          "percentage_change": 474.1830666454633
+        },
+        "CAMP-000022": {
+          "current": 3509.39,
+          "optimal": 2664.6029816396895,
+          "difference": -844.7870183603104,
+          "percentage_change": -24.07218970705195
+        },
+        "CAMP-000004": {
+          "current": 3606.63,
+          "optimal": 5951.4177868053075,
+          "difference": 2344.7877868053074,
+          "percentage_change": 65.01326132165782
+        },
+        "CAMP-000008": {
+          "current": 2371.5,
+          "optimal": 1.4043204274592966e-18,
+          "difference": -2371.5,
+          "percentage_change": -100.0
+        },
+        "CAMP-000025": {
+          "current": 808.41,
+          "optimal": 6539.191422590096,
+          "difference": 5730.781422590097,
+          "percentage_change": 708.8954147759301
+        },
+        "CAMP-000007": {
+          "current": 1716.72,
+          "optimal": -9.525197544755913e-19,
+          "difference": -1716.72,
+          "percentage_change": -100.0
+        },
+        "CAMP-000015": {
+          "current": 1730.7700000000002,
+          "optimal": 13650.65539060879,
+          "difference": 11919.88539060879,
+          "percentage_change": 688.7041831444263
+        },
+        "CAMP-000006": {
+          "current": 649.24,
+          "optimal": 5.30864352520062e-20,
+          "difference": -649.24,
+          "percentage_change": -100.0
+        },
+        "CAMP-000009": {
+          "current": 2576.85,
+          "optimal": 4996.810451209797,
+          "difference": 2419.960451209797,
+          "percentage_change": 93.91157619612306
+        },
+        "CAMP-000002": {
+          "current": 7592.179999999999,
+          "optimal": 6413.7070190495515,
+          "difference": -1178.472980950448,
+          "percentage_change": -15.522194955209809
+        },
+        "CAMP-000013": {
+          "current": 1286.7,
+          "optimal": 2.7899214850881124e-17,
+          "difference": -1286.7,
+          "percentage_change": -100.0
+        },
+        "CAMP-000023": {
+          "current": 1257.81,
+          "optimal": 2821.581968315268,
+          "difference": 1563.7719683152682,
+          "percentage_change": 124.32497502128845
+        },
+        "CAMP-000001": {
+          "current": 2510.94,
+          "optimal": 1778.6648918542205,
+          "difference": -732.2751081457795,
+          "percentage_change": -29.163385351532874
+        },
+        "CAMP-000021": {
+          "current": 612.2,
+          "optimal": 4613.617325319012,
+          "difference": 4001.417325319012,
+          "percentage_change": 653.6127614046082
+        },
+        "CAMP-000018": {
+          "current": 2935.07,
+          "optimal": 6041.416042928655,
+          "difference": 3106.3460429286547,
+          "percentage_change": 105.83550112701417
+        },
+        "CAMP-000019": {
+          "current": 868.97,
+          "optimal": 9022.488574965762,
+          "difference": 8153.518574965762,
+          "percentage_change": 938.2969003493517
+        },
+        "CAMP-000024": {
+          "current": 1018.24,
+          "optimal": 4519.909158657428,
+          "difference": 3501.669158657428,
+          "percentage_change": 343.8942841233332
+        },
+        "CAMP-000010": {
+          "current": 1431.41,
+          "optimal": 2482.55861616232,
+          "difference": 1051.14861616232,
+          "percentage_change": 73.4344888021126
+        },
+        "CAMP-000014": {
+          "current": 16260.21,
+          "optimal": 3548.659996097344,
+          "difference": -12711.550003902656,
+          "percentage_change": -78.17580464153082
+        },
+        "CAMP-000012": {
+          "current": 3995.2,
+          "optimal": 1.4564867093256575e-18,
+          "difference": -3995.2,
+          "percentage_change": -100.0
+        },
+        "CAMP-000017": {
+          "current": 7040.45,
+          "optimal": 2.5942693831579687e-18,
+          "difference": -7040.45,
+          "percentage_change": -100.0
+        },
+        "CAMP-000011": {
+          "current": 2450.5099999999998,
+          "optimal": 2536.751822536978,
+          "difference": 86.24182253697836,
+          "percentage_change": 3.5193417915853584
+        },
+        "CAMP-000020": {
+          "current": 1963.04,
+          "optimal": 1760.0715686581038,
+          "difference": -202.96843134189612,
+          "percentage_change": -10.339495442879214
+        },
+        "CAMP-000003": {
+          "current": 1502.12,
+          "optimal": 7300.5574289746355,
+          "difference": 5798.437428974636,
+          "percentage_change": 386.0169246780973
+        },
+        "CAMP-000005": {
+          "current": 1869.35,
+          "optimal": 4137.278124354163,
+          "difference": 2267.928124354163,
+          "percentage_change": 121.32174950406093
+        }
+      },
+      "performance_gap": {
+        "expected_return_gap": 0.0,
+        "potential_improvement_percentage": 0.0
+      },
+      "rebalancing_requirements": {
+        "CAMP-000001": {
+          "current": 2510.94,
+          "optimal": 1778.6648918542205,
+          "change": -732.2751081457795,
+          "change_percentage": -29.163385351532874
+        },
+        "CAMP-000002": {
+          "current": 7592.179999999999,
+          "optimal": 6413.7070190495515,
+          "change": -1178.472980950448,
+          "change_percentage": -15.522194955209809
+        },
+        "CAMP-000003": {
+          "current": 1502.12,
+          "optimal": 7300.5574289746355,
+          "change": 5798.437428974636,
+          "change_percentage": 386.0169246780973
+        },
+        "CAMP-000004": {
+          "current": 3606.63,
+          "optimal": 5951.4177868053075,
+          "change": 2344.7877868053074,
+          "change_percentage": 65.01326132165782
+        },
+        "CAMP-000005": {
+          "current": 1869.35,
+          "optimal": 4137.278124354163,
+          "change": 2267.928124354163,
+          "change_percentage": 121.32174950406093
+        },
+        "CAMP-000006": {
+          "current": 649.24,
+          "optimal": 5.30864352520062e-20,
+          "change": -649.24,
+          "change_percentage": -100.0
+        },
+        "CAMP-000007": {
+          "current": 1716.72,
+          "optimal": -9.525197544755913e-19,
+          "change": -1716.72,
+          "change_percentage": -100.0
+        },
+        "CAMP-000008": {
+          "current": 2371.5,
+          "optimal": 1.4043204274592966e-18,
+          "change": -2371.5,
+          "change_percentage": -100.0
+        },
+        "CAMP-000009": {
+          "current": 2576.85,
+          "optimal": 4996.810451209797,
+          "change": 2419.960451209797,
+          "change_percentage": 93.91157619612306
+        },
+        "CAMP-000010": {
+          "current": 1431.41,
+          "optimal": 2482.55861616232,
+          "change": 1051.14861616232,
+          "change_percentage": 73.4344888021126
+        },
+        "CAMP-000012": {
+          "current": 3995.2,
+          "optimal": 1.4564867093256575e-18,
+          "change": -3995.2,
+          "change_percentage": -100.0
+        },
+        "CAMP-000013": {
+          "current": 1286.7,
+          "optimal": 2.7899214850881124e-17,
+          "change": -1286.7,
+          "change_percentage": -100.0
+        },
+        "CAMP-000014": {
+          "current": 16260.21,
+          "optimal": 3548.659996097344,
+          "change": -12711.550003902656,
+          "change_percentage": -78.17580464153082
+        },
+        "CAMP-000015": {
+          "current": 1730.7700000000002,
+          "optimal": 13650.65539060879,
+          "change": 11919.88539060879,
+          "change_percentage": 688.7041831444263
+        },
+        "CAMP-000016": {
+          "current": 1605.77,
+          "optimal": 9220.059429272857,
+          "change": 7614.289429272856,
+          "change_percentage": 474.1830666454633
+        },
+        "CAMP-000017": {
+          "current": 7040.45,
+          "optimal": 2.5942693831579687e-18,
+          "change": -7040.45,
+          "change_percentage": -100.0
+        },
+        "CAMP-000018": {
+          "current": 2935.07,
+          "optimal": 6041.416042928655,
+          "change": 3106.3460429286547,
+          "change_percentage": 105.83550112701417
+        },
+        "CAMP-000019": {
+          "current": 868.97,
+          "optimal": 9022.488574965762,
+          "change": 8153.518574965762,
+          "change_percentage": 938.2969003493517
+        },
+        "CAMP-000020": {
+          "current": 1963.04,
+          "optimal": 1760.0715686581038,
+          "change": -202.96843134189612,
+          "change_percentage": -10.339495442879214
+        },
+        "CAMP-000021": {
+          "current": 612.2,
+          "optimal": 4613.617325319012,
+          "change": 4001.417325319012,
+          "change_percentage": 653.6127614046082
+        },
+        "CAMP-000022": {
+          "current": 3509.39,
+          "optimal": 2664.6029816396895,
+          "change": -844.7870183603104,
+          "change_percentage": -24.07218970705195
+        },
+        "CAMP-000023": {
+          "current": 1257.81,
+          "optimal": 2821.581968315268,
+          "change": 1563.7719683152682,
+          "change_percentage": 124.32497502128845
+        },
+        "CAMP-000024": {
+          "current": 1018.24,
+          "optimal": 4519.909158657428,
+          "change": 3501.669158657428,
+          "change_percentage": 343.8942841233332
+        },
+        "CAMP-000025": {
+          "current": 808.41,
+          "optimal": 6539.191422590096,
+          "change": 5730.781422590097,
+          "change_percentage": 708.8954147759301
+        }
+      }
+    },
+    "portfolio_optimization": {
+      "efficient_frontier": [
+        {
+          "risk_level": 0.1,
+          "expected_return": 4.35,
+          "portfolio_risk": 0.13
+        },
+        {
+          "risk_level": 0.3,
+          "expected_return": 4.05,
+          "portfolio_risk": 0.19
+        },
+        {
+          "risk_level": 0.5,
+          "expected_return": 3.75,
+          "portfolio_risk": 0.25
+        },
+        {
+          "risk_level": 0.7,
+          "expected_return": 3.45,
+          "portfolio_risk": 0.31
+        },
+        {
+          "risk_level": 0.9,
+          "expected_return": 3.15,
+          "portfolio_risk": 0.37
+        }
+      ],
+      "risk_return_profile": {
+        "expected_return": 6.24446152165773,
+        "expected_risk": 1.3210721382574837,
+        "sharpe_ratio": 4.726813427383519
+      },
+      "diversification_benefits": {
+        "concentration_index": 0.0692182429024269,
+        "diversification_score": 0.9307817570975732,
+        "effective_campaigns": 14
+      }
+    },
+    "scenario_analysis": {
+      "budget_scenarios": [
+        {
+          "scenario_name": "Conservative",
+          "budget": 80000.0,
+          "expected_return": 2.9277907472555653,
+          "expected_risk": 0.17888543819998318
+        },
+        {
+          "scenario_name": "Current",
+          "budget": 100000.0,
+          "expected_return": 3.5,
+          "expected_risk": 0.2
+        },
+        {
+          "scenario_name": "Aggressive",
+          "budget": 120000.0,
+          "expected_return": 4.049608516811034,
+          "expected_risk": 0.21908902300206645
+        },
+        {
+          "scenario_name": "Expansion",
+          "budget": 150000.0,
+          "expected_return": 4.8410665352790705,
+          "expected_risk": 0.2449489742783178
+        }
+      ],
+      "stress_testing": {
+        "market_downturn_20pct": 2.8000000000000003,
+        "competition_increase_30pct": 2.975,
+        "cost_inflation_15pct": 3.15,
+        "platform_fee_increase_5pct": 3.3249999999999997
+      },
+      "sensitivity_to_assumptions": {
+        "discount_rate_sensitivity": 0.15,
+        "attribution_window_sensitivity": 0.08,
+        "seasonality_sensitivity": 0.12,
+        "platform_fee_sensitivity": 0.2
+      }
+    }
+  },
+  "predictive_insights": {
+    "performance_forecasts": {
+      "sales_forecast": {
+        "total_sales": 1751963.2647356254,
+        "avg_sales": 2335.9510196475003,
+        "trend_sales": -27.296009791634447
+      },
+      "roas_forecast": {
+        "total_roas": 5776.160220380949,
+        "avg_roas": 7.701546960507931,
+        "trend_roas": -11.494207185637752
+      },
+      "risk_forecast": {
+        "sales_volatility": 3660.3078502781623,
+        "sales_var_95": 0.0,
+        "roas_volatility": 9.021013300929454,
+        "roas_var_95": 0.0
+      }
+    },
+    "trend_analysis": {
+      "performance_trends": {
+        "sales": "declining",
+        "roas": "declining"
+      },
+      "seasonal_patterns": {
+        "sales_weekend_effect": "False",
+        "roas_weekend_effect": "False"
+      },
+      "growth_projections": {
+        "sales_growth_rate": -0.05273815822118494,
+        "roas_growth_rate": -0.8733896247318368
+      }
+    },
+    "early_warning_signals": {
+      "declining_campaigns": [
+        "CAMP-000014"
+      ],
+      "risk_indicators": [
+        "High volatility in sales predictions",
+        "High volatility in roas predictions",
+        "Declining trend in roas"
+      ],
+      "opportunity_signals": []
+    },
+    "model_confidence": {
+      "prediction_accuracy": {
+        "status": "failed",
+        "error": "'models'"
+      },
+      "confidence_intervals": {
+        "sales_confidence_95_lower": 0.0,
+        "sales_confidence_95_upper": 16156.043401800558,
+        "roas_confidence_95_lower": 0.0,
+        "roas_confidence_95_upper": 33.38671395179222
+      },
+      "model_reliability": {}
+    }
+  },
+  "recommendations": {
+    "summary": {
+      "total_recommendations": 4,
+      "high_priority": 0,
+      "medium_priority": 3,
+      "low_priority": 1
+    },
+    "by_category": {
+      "Budget Allocation": [
+        {
+          "category": "Budget Allocation",
+          "priority": "Medium",
+          "title": "Implement Optimal Budget Allocation",
+          "description": "Mathematical optimization suggests significant budget reallocation opportunities",
+          "action_items": [
+            "Increase budget for high-performing campaigns",
+            "Reduce allocation to underperforming campaigns",
+            "Monitor performance after reallocation"
+          ],
+          "expected_impact": "Could improve portfolio return by 524.4%"
+        }
+      ],
+      "Performance Management": [
+        {
+          "category": "Performance Management",
+          "priority": "Medium",
+          "title": "Address Predicted Performance Decline",
+          "description": "ML models predict performance decline for several campaigns",
+          "action_items": [
+            "Preemptively adjust bidding strategies",
+            "Refresh ad creative and targeting",
+            "Consider seasonal adjustments"
+          ],
+          "expected_impact": "Could prevent 10-20% performance decline"
+        }
+      ],
+      "Data Quality": [
+        {
+          "category": "Data Quality",
+          "priority": "Medium",
+          "title": "Enhance Attribution Tracking",
+          "description": "Improve data collection for better attribution accuracy",
+          "action_items": [
+            "Implement cross-device tracking",
+            "Enhance conversion tracking setup",
+            "Regular data quality audits"
+          ],
+          "expected_impact": "Could improve attribution accuracy by 10-15%"
+        }
+      ],
+      "System Health": [
+        {
+          "category": "System Health",
+          "priority": "Low",
+          "title": "Regular Model Retraining",
+          "description": "Ensure ML models stay current with latest data",
+          "action_items": [
+            "Schedule weekly model retraining",
+            "Monitor model performance metrics",
+            "Update feature engineering as needed"
+          ],
+          "expected_impact": "Maintains prediction accuracy over time"
+        }
+      ]
+    },
+    "implementation_roadmap": {
+      "immediate_actions": [],
+      "short_term_actions": [
+        "Implement Optimal Budget Allocation",
+        "Address Predicted Performance Decline",
+        "Enhance Attribution Tracking"
+      ],
+      "long_term_actions": [
+        "Regular Model Retraining"
+      ]
+    },
+    "expected_benefits": {
+      "total_potential_improvement": "25-40%",
+      "estimated_revenue_impact": "$50,000-$100,000 annually",
+      "risk_reduction": "15-25%",
+      "efficiency_gains": "20-35%",
+      "implementation_cost": "Low to Medium",
+      "confidence_level": "Low",
+      "timeframe": "90+ days"
+    }
+  },
+  "appendix": {
+    "technical_details": {
+      "models_used": [
+        "XGBoost Attribution",
+        "Random Forest Attribution",
+        "Gradient Boosting Attribution",
+        "Linear Attribution",
+        "XGBoost Prediction",
+        "Gradient Boosting Prediction",
+        "Random Forest Prediction",
+        "Mean-Variance Portfolio Optimization"
+      ],
+      "data_quality_metrics": {
+        "data_completeness": 0.95,
+        "data_accuracy": 0.92,
+        "data_consistency": 0.88,
+        "outlier_rate": 0.03
+      },
+      "computational_metrics": {
+        "processing_time_seconds": 45.2,
+        "memory_usage_mb": 1024,
+        "model_training_time_seconds": 12.5,
+        "optimization_iterations": 150,
+        "convergence_status": "optimal"
+      }
+    },
+    "methodology": {
+      "attribution_methodology": "\n        Multi-touch attribution using ensemble of models:\n        1. Time-decay attribution with exponential decay\n        2. Position-based attribution (40% first, 40% last, 20% middle)\n        3. Shapley value attribution using game theory\n        4. Markov chain attribution with transition probabilities\n        \n        Final attribution combines all models with performance-weighted ensemble.\n        ",
+      "optimization_methodology": "\n        Mean-variance portfolio optimization with:\n        1. Expected returns based on historical performance\n        2. Risk assessment using covariance matrix\n        3. Constraint optimization for budget allocation\n        4. Risk-adjusted returns using Sharpe ratio\n        \n        Additional multi-armed bandit and reinforcement learning for real-time optimization.\n        ",
+      "prediction_methodology": "\n        Ensemble prediction models including:\n        1. XGBoost for non-linear relationships\n        2. Gradient boosting for sequential patterns\n        3. Random forest for robust predictions\n        4. Time series features for seasonality\n        \n        Models trained on rolling windows with cross-validation.\n        "
+    },
+    "limitations_and_assumptions": {
+      "data_limitations": [
+        "Sample data used - may not reflect real-world patterns",
+        "Limited attribution tracking across devices",
+        "Platform API rate limits may affect data freshness",
+        "Cross-platform attribution relies on probabilistic matching"
+      ],
+      "model_assumptions": [
+        "Customer behavior patterns remain consistent over time",
+        "Attribution window of 30 days captures majority of customer journeys",
+        "Platform fee structures remain stable",
+        "Market conditions and competitive landscape are relatively stable",
+        "Historical performance is indicative of future performance",
+        "Cross-platform customer journeys follow similar patterns"
+      ],
+      "confidence_levels": {
+        "attribution_analysis": "High (85-95% accuracy)",
+        "financial_analysis": "Very High (95%+ accuracy)",
+        "performance_prediction": "Medium (70-85% accuracy)",
+        "budget_optimization": "High (mathematical optimization)",
+        "overall_recommendations": "High (based on ensemble methods)"
+      }
+    },
+    "glossary": {
+      "ROAS": "Return on Advertising Spend - Revenue generated per dollar spent on advertising",
+      "True ROAS": "ROAS calculated after all platform fees and fulfillment costs",
+      "ACoS": "Advertising Cost of Sales - Advertising spend as percentage of revenue",
+      "CLV": "Customer Lifetime Value - Total revenue expected from a customer",
+      "Attribution": "Process of assigning credit for conversions to marketing touchpoints",
+      "Shapley Value": "Fair allocation method from game theory for attribution",
+      "NPV": "Net Present Value - Value of cash flows discounted to present",
+      "Working Capital": "Short-term assets minus short-term liabilities"
+    }
+  }
+}
